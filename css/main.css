@@ -1,0 +1,851 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Philosopher-Bold';
+    src: url(../Fonts/Philosopher-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(../Fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url(../Fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h5 {
+    font-family: 'Roboto-Medium';
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #DC780B;
+    /* opacity: 0.7; */
+}
+
+h3 {
+    font-family: 'Philosopher-Bold';
+    font-size: 31.25px;
+    color: #150C01;
+}
+
+button {
+    font-family: 'Roboto-Medium';
+    font-size: 16px;
+    line-height: 19px;
+}
+
+p {
+    font-family: 'Roboto-regular';
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    /* opacity: 0.7; */
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1140px;
+    height: 46px;
+    margin-top: 30px;
+}
+
+.header-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.navbar-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 40px;
+    width: 550px;
+    height: 19px;
+}
+
+.navbar-list-item {
+    width: 87px;
+    height: 19px;
+    font-family: 'Roboto-regular';
+    font-size: 16px;
+    line-height: 19px;
+    color: #150C01;
+    opacity: 0.6;
+}
+
+.navbar-list a:nth-child(1) {
+    font-family: 'Roboto-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    /* color: #DC780B; */
+    color: #1b1717;
+}
+
+.navbar-a {
+    color: #0f8b72;
+}
+
+.navbar-list-item a:hover {
+    color: red;
+}
+
+.navbar-list-item a:active {
+    color: aqua;
+}
+
+.header button {
+    width: 155px;
+    height: 46px;
+    background: #DC780B;
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Roboto-regular';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.header button:hover {
+    color: blue;
+    background-color: rgb(43, 226, 189);
+}
+
+.header button:active {
+    color: rgb(55, 255, 0);
+    background-color: rgb(180, 43, 226);
+}
+
+
+/* main qism boshlandi  */
+
+.hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.hero-left {
+    width: 555px;
+    height: 356px;
+    margin-top: 160px;
+    left: 0;
+}
+
+.hero-title {
+    font-family: 'Philosopher-Bold';
+    font-weight: 700;
+    font-size: 48.83px;
+    line-height: 58px;
+    color: #150C01;
+}
+
+.hero-paragraph {
+    margin: 42px 0px 50px 0px;
+    font-family: 'Roboto-Medium';
+    opacity: 0.7;
+}
+
+.hero-btn1 {
+    width: 158px;
+    height: 60px;
+    background-color: #DC780B;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.hero-btn1:hover {
+    color: blue;
+    background-color: rgb(43, 226, 189);
+}
+
+.hero-btn1:active {
+    color: rgb(55, 255, 0);
+    background-color: rgb(180, 43, 226);
+}
+
+.hero-btn2 {
+    width: 158px;
+    height: 60px;
+    margin-left: 30px;
+    border: 1.5px solid #fed9b1;
+    border-radius: 5px;
+    background-color: white;
+    color: #DC780B;
+}
+
+.hero-btn2:hover {
+    color: blue;
+    background-color: rgb(43, 226, 189);
+}
+
+.hero-btn2:active {
+    color: rgb(55, 255, 0);
+    background-color: rgb(180, 43, 226);
+}
+
+.hero-right {
+    width: 801px;
+    height: 600px;
+    background-image: url(../Images/asosiy.png);
+    /* background-repeat: no-repeat; */
+    /* background-size: right; */
+    background-position: left;
+    position: relative;
+    z-index: -2;
+    top: -18px;
+}
+
+.hero-img {
+    margin-top: 540px;
+    margin-left: 100px;
+}
+
+
+/* food qism boshlandi  */
+
+.food {
+    width: 1080px;
+    height: 333px;
+    margin-top: 220px;
+}
+
+.food-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.food-list-item {
+    width: 360px;
+    height: 333px;
+}
+
+.food-title5 {
+    text-align: center;
+    line-height: 19px;
+    text-align: center;
+}
+
+.food-title3 {
+    margin: 7px 0px 50px 0px;
+    text-align: center;
+    line-height: 35px;
+    text-transform: capitalize;
+}
+
+.food-circle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 88px;
+    height: 88px;
+    margin-left: 136px;
+    background-color: #F4F6EB;
+    border-radius: 50%;
+}
+
+.food-title4 {
+    margin: 30px 0px 15px 0px;
+    font-family: 'Philosopher-Bold';
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    color: #150C01;
+}
+
+.food-paragraph {
+    text-align: center;
+    opacity: 0.7;
+}
+
+.circle2 {
+    background-color: #FBF1E7;
+}
+
+
+/* About qism boshlandi  */
+
+.about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 1140px;
+    height: 500px;
+    margin-top: 123px;
+    position: relative;
+}
+
+.about-left::before {
+    position: absolute;
+    top: -80px;
+    left: -163px;
+    content: url(../Images/foon.png);
+    width: 957px;
+    height: 801px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -7;
+}
+
+.about-left {
+    width: 555px;
+    height: 500px;
+    background-image: url(../Images/about-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.about-right {
+    width: 488px;
+    height: 315px;
+    margin-top: 100px;
+}
+
+.about-title5 {
+    line-height: 24px;
+    opacity: 0.7;
+}
+
+.about-title2 {
+    margin-top: 10px;
+    font-family: 'Philosopher-Bold';
+    font-size: 31.25px;
+    line-height: 41px;
+    color: #150C01;
+}
+
+.about-paragraph {
+    margin: 30px 0 20px 0;
+    opacity: 0.7;
+}
+
+.about-btn {
+    width: 142px;
+    height: 42px;
+    border: 0;
+    border-radius: 5px;
+    background: #DC780B;
+    color: #FFFFFF;
+}
+
+.about-btn:hover {
+    color: blue;
+    background-color: rgb(43, 226, 189);
+}
+
+.about-btn:active {
+    color: rgb(55, 255, 0);
+    background-color: rgb(180, 43, 226);
+}
+
+
+/* menu qism boshlandi  */
+
+.menu {
+    width: 1140px;
+    margin-top: 115px;
+}
+
+.menu-title5 {
+    margin-top: 115px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.menu-title3 {
+    margin: 9px 0px 25px 0px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.menu-paragraph {
+    width: 748px;
+    margin-left: 200px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.card-img {
+    border-radius: 75px 10px 75px 0px;
+}
+
+.card-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.card-list-item {
+    width: 360px;
+    height: 475px;
+    margin-top: 60px;
+    border: 1px solid red;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 75px 10px 10px 10px;
+}
+
+.menu-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 25px;
+    width: 360px;
+}
+
+.menu-text3 {
+    width: 239px;
+    height: 24px;
+    /* margin-top: 21px; */
+    font-family: 'Philosopher-Bold';
+    font-size: 25px;
+    line-height: 24px;
+    color: #150C01;
+}
+
+.menu-text4 {
+    width: 36px;
+    height: 24px;
+    font-size: 25px;
+    line-height: 24px;
+    font-family: 'Philosopher-Bold';
+    color: #150C01;
+}
+
+.card-paragraph {
+    width: 310px;
+    height: 38px;
+    margin: 10px 20px 10px 20px;
+    opacity: 0.7;
+}
+
+.card-plus {
+    margin: 25px;
+}
+
+.card-plus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.plus-img:hover {
+    border: 2px solid blue;
+}
+
+.plus-img:active {
+    border: 2px solid red;
+}
+
+.span-img {
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+}
+
+.span-img:hover {
+    border: 2px solid blue;
+}
+
+.span-img:active {
+    border: 2px solid red;
+}
+
+.menu-btn {
+    width: 142px;
+    height: 42px;
+    margin: 50px 500px;
+    border: 1px solid #ffebd6;
+    border-radius: 5px;
+    background-color: white;
+    color: #DC780B;
+}
+
+.menu-btn:hover {
+    color: blue;
+    background-color: rgb(43, 226, 189);
+}
+
+.menu-btn:active {
+    color: rgb(55, 255, 0);
+    background-color: rgb(180, 43, 226);
+}
+
+
+/* take away qism boshlandi */
+
+.take-away {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1440px;
+    height: 518px;
+    margin-top: 187px;
+    background-color: #FDF9F5;
+}
+
+.take-away-left {
+    width: 655px;
+    height: 275px;
+    padding: 114px 0px 0px 247px
+}
+
+.take-away-right {
+    position: absolute;
+    top: -67px;
+    right: 244px;
+    width: 330px;
+    height: 651px;
+    background-image: url(../Images/telefon.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.take-away-title3 {
+    margin: 5px 0px 29px 0px;
+}
+
+.take-away-paragraph {
+    opacity: 0.7;
+}
+
+.take-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.take-btn1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 29px;
+    background-color: #150C01;
+    color: white;
+}
+
+.take-btn1:hover {
+    color: blue;
+    background-color: rgb(43, 226, 189);
+}
+
+.take-btn1:active {
+    background-color: rgb(180, 43, 226);
+    color: rgb(55, 255, 0);
+}
+
+.take-btn2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 29px;
+    border: 1px solid #e2e8c8;
+    color: black;
+}
+
+.take-btn2:hover {
+    color: blue;
+    background-color: rgb(43, 226, 189);
+}
+
+.take-btn2:active {
+    background-color: rgb(180, 43, 226);
+    color: rgb(55, 255, 0);
+}
+
+.take-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+}
+
+
+/* testimona qism boshlandi   */
+
+.testimona {
+    /* max-width: 1440px; */
+    width: 750px;
+    text-align: center;
+    margin-top: 213px;
+}
+
+.take-away-title5 {
+    opacity: 0.7;
+}
+
+.testimona-h3 {
+    height: 24px;
+    margin: 12px 0px 24px 0px;
+}
+
+.testimona-paragraph {
+    width: 750px;
+    height: 62px;
+    margin-bottom: 73px;
+    opacity: 0.7;
+}
+
+.testimona-text {
+    margin: 41px 0px 20px 0px;
+}
+
+.testimona-title4 {
+    margin: 32px 0px 6px 0px;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Roboto-regular';
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.testimona-text2 {
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.7;
+}
+
+
+/* contact qism boshlandi  */
+
+.contact {
+    max-width: 1440px;
+    height: 448px;
+    margin-top: 120px;
+    background-color: #FBF1E7;
+    padding-top: 115px;
+}
+
+.contact-tite5 {
+    margin: 0px 0px 15px 673px;
+}
+
+.contact-title3 {
+    width: 749px;
+    height: 61px;
+    text-align: center;
+    margin-left: 345px;
+}
+
+.form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 750px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 46px 0px 0px 345px;
+}
+
+.form button {
+    width: 156px;
+    height: 75px;
+    background: #DC780B;
+    border: 0px;
+    font-family: 'Roboto-Medium';
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 41px;
+    /* display: flex;
+align-items: center; */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form button:hover {
+    color: blue;
+    background-color: rgb(43, 226, 189);
+}
+
+.form button:active {
+    color: rgb(55, 255, 0);
+    background-color: rgb(180, 43, 226);
+}
+
+.form-input {
+    border: 0;
+    margin-left: 32px;
+    font-size: 16px;
+    line-height: 41px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: 'Roboto-regular';
+    color: #000000;
+}
+
+.form-input:hover {
+    border: 1px solid blue;
+}
+
+.form-input:active {
+    border: 1px solid rgb(26, 255, 0);
+}
+
+
+/* footer qism boshlandi  */
+
+.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 429px;
+    padding: 137px 250px 0px 150px;
+    background-color: #252525;
+    color: white;
+}
+
+.footer-list-item {
+    margin-top: 20px;
+    font-family: 'Roboto-regular';
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.footer-paragraph {
+    margin-top: 20px;
+    font-family: 'Roboto-regular';
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.footer h5 {
+    font-family: 'Philosopher-Bold';
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+}

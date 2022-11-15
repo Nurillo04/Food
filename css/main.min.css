@@ -1,0 +1,776 @@
+.header,
+.header-left {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.header,
+.navbar-list {
+    -webkit-box-pack: justify
+}
+
+.about-left,
+.about-left::before {
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.about,
+.hero-right,
+.take-away {
+    position: relative
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0
+}
+
+.contact,
+.footer,
+.take-away {
+    max-width: 1440px
+}
+
+@font-face {
+    font-family: Philosopher-Bold;
+    src: url(../Fonts/Philosopher-Bold.ttf);
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../Fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Roboto-regular;
+    src: url(../Fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal
+}
+
+ul {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+h5 {
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #dc780b
+}
+
+h3,
+p {
+    color: #150c01
+}
+
+h3 {
+    font-family: Philosopher-Bold;
+    font-size: 31.25px
+}
+
+.navbar-list a:first-child,
+button {
+    font-family: Roboto-Medium;
+    line-height: 19px
+}
+
+button {
+    font-size: 16px
+}
+
+.header button,
+.navbar-list-item,
+p {
+    font-family: Roboto-regular;
+    font-size: 16px
+}
+
+p {
+    line-height: 24px
+}
+
+.header {
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1140px;
+    height: 46px;
+    margin-top: 30px
+}
+
+.header-left {
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.hero,
+.navbar-list {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.navbar-list {
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 40px;
+    margin-left: 40px;
+    width: 550px;
+    height: 19px
+}
+
+.about,
+.food-list {
+    -webkit-box-pack: justify
+}
+
+.navbar-list-item {
+    width: 87px;
+    height: 19px;
+    line-height: 19px;
+    color: #150c01;
+    opacity: .6
+}
+
+.navbar-list a:first-child {
+    font-size: 16px;
+    color: #1b1717
+}
+
+.navbar-a {
+    color: #0f8b72
+}
+
+.navbar-list-item a:hover {
+    color: red
+}
+
+.navbar-list-item a:active {
+    color: #0ff
+}
+
+.header button {
+    width: 155px;
+    height: 46px;
+    background: #dc780b;
+    border-radius: 5px;
+    border: 0;
+    line-height: 19px;
+    color: #fff
+}
+
+.about-btn:hover,
+.form button:hover,
+.header button:hover,
+.hero-btn1:hover,
+.hero-btn2:hover,
+.menu-btn:hover,
+.take-btn1:hover,
+.take-btn2:hover {
+    color: #00f;
+    background-color: #2be2bd
+}
+
+.about-btn:active,
+.form button:active,
+.header button:active,
+.hero-btn1:active,
+.hero-btn2:active,
+.menu-btn:active,
+.take-btn1:active,
+.take-btn2:active {
+    background-color: #b42be2;
+    color: #37ff00
+}
+
+.hero {
+    display: flex
+}
+
+.food-circle,
+.food-list {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.hero-left {
+    width: 555px;
+    height: 356px;
+    margin-top: 160px;
+    left: 0
+}
+
+.hero-btn1,
+.hero-btn2 {
+    width: 158px;
+    height: 60px
+}
+
+.hero-title {
+    font-family: Philosopher-Bold;
+    font-weight: 700;
+    font-size: 48.83px;
+    line-height: 58px;
+    color: #150c01
+}
+
+.hero-paragraph {
+    margin: 42px 0 50px;
+    font-family: Roboto-Medium;
+    opacity: .7
+}
+
+.hero-btn1 {
+    background-color: #dc780b;
+    border: 0;
+    border-radius: 5px;
+    color: #fff
+}
+
+.hero-btn2 {
+    margin-left: 30px;
+    border: 1.5px solid #fed9b1;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #dc780b
+}
+
+.about-title2,
+.food-title4 {
+    font-family: Philosopher-Bold;
+    color: #150c01
+}
+
+.hero-right {
+    width: 801px;
+    height: 600px;
+    background-image: url(../Images/asosiy.png);
+    background-position: left;
+    z-index: -2;
+    top: -18px
+}
+
+.hero-img {
+    margin-top: 540px;
+    margin-left: 100px
+}
+
+.food {
+    width: 1080px;
+    height: 333px;
+    margin-top: 220px
+}
+
+.food-list {
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.food-list-item {
+    width: 360px;
+    height: 333px
+}
+
+.food-title5 {
+    line-height: 19px;
+    text-align: center
+}
+
+.food-title3 {
+    margin: 7px 0 50px;
+    text-align: center;
+    line-height: 35px;
+    text-transform: capitalize
+}
+
+.food-circle {
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 88px;
+    height: 88px;
+    margin-left: 136px;
+    background-color: #f4f6eb;
+    border-radius: 50%
+}
+
+.about,
+.card-list {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.food-title4 {
+    margin: 30px 0 15px;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center
+}
+
+.food-paragraph {
+    text-align: center;
+    opacity: .7
+}
+
+.circle2 {
+    background-color: #fbf1e7
+}
+
+.about {
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 1140px;
+    height: 500px;
+    margin-top: 123px
+}
+
+.card-list,
+.menu-text {
+    -webkit-box-pack: justify
+}
+
+.about-left::before {
+    position: absolute;
+    top: -80px;
+    left: -163px;
+    content: url(../Images/foon.png);
+    width: 957px;
+    height: 801px;
+    background-position: left;
+    z-index: -7
+}
+
+.about-left {
+    width: 555px;
+    height: 500px;
+    background-image: url(../Images/about-img.png);
+    background-position: center
+}
+
+.about-btn,
+.form button {
+    background: #dc780b;
+    border: 0
+}
+
+.about-right {
+    width: 488px;
+    height: 315px;
+    margin-top: 100px
+}
+
+.about-title5 {
+    line-height: 24px;
+    opacity: .7
+}
+
+.about-title2 {
+    margin-top: 10px;
+    font-size: 31.25px;
+    line-height: 41px
+}
+
+.menu-title3,
+.menu-title5 {
+    line-height: 24px;
+    text-align: center
+}
+
+.about-paragraph {
+    margin: 30px 0 20px;
+    opacity: .7
+}
+
+.about-btn {
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+    color: #fff
+}
+
+.menu {
+    width: 1140px;
+    margin-top: 115px
+}
+
+.menu-title5 {
+    margin-top: 115px
+}
+
+.menu-title3 {
+    margin: 9px 0 25px
+}
+
+.menu-paragraph {
+    width: 748px;
+    margin-left: 200px;
+    text-align: center;
+    opacity: .7
+}
+
+.card-img {
+    border-radius: 75px 10px 75px 0
+}
+
+.card-list {
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.card-plus,
+.menu-text {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.card-list-item {
+    width: 360px;
+    height: 475px;
+    margin-top: 60px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background: #fff;
+    border-radius: 75px 10px 10px
+}
+
+.menu-text3,
+.menu-text4 {
+    height: 24px;
+    font-size: 25px;
+    line-height: 24px;
+    font-family: Philosopher-Bold;
+    color: #150c01
+}
+
+.menu-text {
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 25px;
+    width: 360px
+}
+
+.menu-text3 {
+    width: 239px
+}
+
+.menu-text4 {
+    width: 36px
+}
+
+.card-paragraph {
+    width: 310px;
+    height: 38px;
+    margin: 10px 20px;
+    opacity: .7
+}
+
+.card-plus {
+    margin: 25px;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.take-away,
+.take-button {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.plus-img:hover,
+.span-img:hover {
+    border: 2px solid #00f
+}
+
+.plus-img:active,
+.span-img:active {
+    border: 2px solid red
+}
+
+.span-img {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff
+}
+
+.menu-btn {
+    width: 142px;
+    height: 42px;
+    margin: 50px 500px;
+    border: 1px solid #ffebd6;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #dc780b
+}
+
+.take-away {
+    display: flex;
+    height: 518px;
+    margin-top: 187px;
+    background-color: #fdf9f5
+}
+
+.take-away-left {
+    width: 655px;
+    height: 275px;
+    padding: 114px 0 0 247px
+}
+
+.take-away-right {
+    position: absolute;
+    top: -67px;
+    right: 244px;
+    width: 330px;
+    height: 651px;
+    background-image: url(../Images/telefon.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain
+}
+
+.take-away-title3 {
+    margin: 5px 0 29px
+}
+
+.take-away-paragraph,
+.take-away-title5 {
+    opacity: .7
+}
+
+.take-button {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.take-btn1,
+.take-btn2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    gap: 10px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 29px;
+    text-align: center
+}
+
+.take-btn1 {
+    display: flex;
+    background-color: #150c01;
+    color: #fff
+}
+
+.take-btn2 {
+    display: flex;
+    border: 1px solid #e2e8c8;
+    color: #000
+}
+
+.form,
+.take-button {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.take-button {
+    display: flex;
+    gap: 30px
+}
+
+.testimona {
+    width: 750px;
+    text-align: center;
+    margin-top: 213px
+}
+
+.testimona-h3 {
+    height: 24px;
+    margin: 12px 0 24px
+}
+
+.testimona-paragraph {
+    width: 750px;
+    height: 62px;
+    margin-bottom: 73px;
+    opacity: .7
+}
+
+.testimona-text {
+    margin: 41px 0 20px
+}
+
+.testimona-title4 {
+    margin: 32px 0 6px;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Roboto-regular;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000
+}
+
+.testimona-text2 {
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #000;
+    opacity: .7
+}
+
+.contact {
+    height: 448px;
+    margin-top: 120px;
+    background-color: #fbf1e7;
+    padding-top: 115px
+}
+
+.contact-tite5 {
+    margin: 0 0 15px 673px
+}
+
+.contact-title3 {
+    width: 749px;
+    height: 61px;
+    text-align: center;
+    margin-left: 345px
+}
+
+.form {
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 750px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 46px 0 0 345px
+}
+
+.footer,
+.form-input {
+    display: -webkit-box;
+    display: -ms-flexbox
+}
+
+.form button {
+    width: 156px;
+    height: 75px;
+    font-family: Roboto-Medium;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 41px;
+    text-align: center;
+    color: #fff
+}
+
+.form-input {
+    border: 0;
+    margin-left: 32px;
+    font-size: 16px;
+    line-height: 41px;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Roboto-regular;
+    color: #000
+}
+
+.form-input:hover {
+    border: 1px solid #00f
+}
+
+.form-input:active {
+    border: 1px solid #1aff00
+}
+
+.footer {
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 429px;
+    padding: 137px 250px 0 150px;
+    background-color: #252525;
+    color: #fff
+}
+
+.footer-list-item,
+.footer-paragraph {
+    margin-top: 20px;
+    font-family: Roboto-regular;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    opacity: .7
+}
+
+.footer h5 {
+    font-family: Philosopher-Bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff
+}
+
+.a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px
+}
